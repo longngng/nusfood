@@ -131,3 +131,7 @@ dist
 
 # Credentials
 config/default.json
+
+# Client
+client/node_modules/
+client/build/
