@@ -2,8 +2,11 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import NavBar from './component/NavBar';
-import HomePage from './pages/HomePage';
 import Footer from './component/Footer';
+
+import HomePage from './pages/HomePage';
+import SignUp from './pages/SignUp';
+import LogIn from './pages/LogIn';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -25,6 +28,8 @@ const App = () => {
           <NavBar></NavBar>
           <div className="content">
             <Route path="/" exact component={HomePage} />
+            <Route path="/register" component={SignUp} />
+            <Route path="/login" component={LogIn} />
           </div>
           <Footer></Footer>
         </div>

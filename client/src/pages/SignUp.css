@@ -1,0 +1,15 @@
+.setup-page {
+  background-image: url('UTown_2.jpg');
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0;
+}
+
+.icon {
+  font-size: 40px;
+}
+

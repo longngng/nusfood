@@ -1,0 +1,23 @@
+.login-page {
+  background-image: url('UTown_1.jpg');
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.alternative-options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alternative-options a {
+  color: #000;
+  text-decoration: none;
+}
+
+.alternative-options a:hover {
+  text-decoration: underline;
+}
