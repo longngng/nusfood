@@ -7,6 +7,7 @@ import Footer from './component/Footer';
 import HomePage from './pages/HomePage';
 import SignUp from './pages/SignUp';
 import LogIn from './pages/LogIn';
+import CanteenPage from './pages/CanteenPage';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="/" exact component={HomePage} />
             <Route path="/register" component={SignUp} />
             <Route path="/login" component={LogIn} />
+            <Route path="/canteens/:id" component={CanteenPage} />
           </div>
           <Footer></Footer>
         </div>

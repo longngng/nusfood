@@ -12,9 +12,9 @@
   z-index: 1000; /* Ensure it stays on top */
 }
 
-.navbar a {
+.navbar-links a {
   color: #fff;
-  padding: 0.45rem;
+  padding: 3px;
   margin: 0 0.25rem;
   text-decoration: none;
 }
@@ -42,7 +42,7 @@ h5 {
 
 .navbar-links button {
   color: white;
-  margin: 0 0.2rem;
+  margin: 0 0.25rem;
   text-decoration: none;
   border: none;
   padding: 3px;
