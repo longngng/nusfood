@@ -1,0 +1,37 @@
+.canteen-container {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  flex: 2;
+  height: 100%;
+}
+
+.canteen-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.canteen-summary {
+  width: 40%;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+.canteen-description {
+  width: 60%;
+}
+
+.dishes-prices ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dishes-prices li {
+  margin: 0.5rem 0;
+}
+
+h1 {
+  color: white;
+  padding-bottom: 20px;
+}

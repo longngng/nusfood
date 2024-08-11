@@ -1,0 +1,45 @@
+.review-list {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  max-height: 330px; /* Maximum height */
+  overflow-y: auto; /* Scrollbar for vertical overflow */
+}
+
+.review {
+  background-color: #3c3c3c;
+  padding: 0.2rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.review-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  /* position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px; */
+}
+
+.like-button {
+  background-color: #3c3c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.like-button.liked {
+  background-color: #1877f2;
+}
