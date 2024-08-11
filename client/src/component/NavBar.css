@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #d32f2f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure content is centered vertically */
+  padding: 0 1rem; /* Adjust horizontal padding as needed */
+  height: 50px; /* Set the height of the nav bar */
+  color: white;
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Align it to the top */
+  width: 100%; /* Make it span the full width */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--primary-color);
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links button {
+  color: white;
+  margin: 0 0.2rem;
+  text-decoration: none;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.disabled-link {
+  pointer-events: none;
+}

@@ -1,0 +1,11 @@
+.filter-container {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-container label {
+  margin-right: 0.5rem;
+  color: #ffffff;
+}
