@@ -8,9 +8,14 @@ connectDB();
 
 const app = express();
 
+app.use(express.json({ extended: false }));
+
 app.get('/api/health-check', (req, res) => {
   res.send('Server is running!');
 });
+
+// Define Routes
+app.use('/api/users', require('./routes/api/users'));
 
 const port = process.env.PORT || 5000;
 

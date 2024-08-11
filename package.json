@@ -23,9 +23,10 @@
     "config": "^3.3.12",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "express-validator": "^7.2.0",
+    "express-validator": "^6.6.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
+    "normalize-url": "^5.0.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
