@@ -1,9 +1,12 @@
 const express = require('express');
+const connectDB = require('./config/db');
 
 require('dotenv').config();
 
-const app = express();
+//Connect database
+connectDB();
 
+const app = express();
 
 app.get('/api/health-check', (req, res) => {
   res.send('Server is running!');
