@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const connectDB = require('./config/db');
 
 require('dotenv').config();
@@ -9,6 +10,14 @@ connectDB();
 const app = express();
 
 app.use(express.json({ extended: false }));
+
+const corsOptions = {
+  origin: 'http://localhost:3000', // Replace with your allowed origin(s)
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // Enable credentials (cookies, Authorization headers, etc.)
+};
+
+app.use(cors(corsOptions));
 
 app.get('/api/health-check', (req, res) => {
   res.send('Server is running!');

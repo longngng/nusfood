@@ -1,0 +1,46 @@
+.canteen-card {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 250px
+  /* flex: 1 1 200px; Make the card flexible */
+}
+
+.canteen-card img.canteen-image {
+  width: 100%;
+  height: 55%; /* Set a fixed height */
+  object-fit: cover; /* Cover ensures the image covers the area, cropping if necessary */
+  border-radius: 3px;
+}
+
+.canteen-card h2 {
+  margin: 0.5rem 0;
+}
+
+.canteen-card p {
+  margin: 0.2rem 0;
+}
+
+.canteen-card button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.canteen-card button:hover {
+  background-color: #b71c1c;
+}
+
+p {
+  color: white
+}
+
+a {
+  text-decoration: none;
+}
